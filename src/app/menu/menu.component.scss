@@ -1,9 +1,25 @@
-.header {
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 0px;
-    background-color: gray;
+    background-color: black;
 }
 
 .logo {
     height: 100px;
     width: 200px;
+}
+
+.links {
+    a {
+        color: white;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        &:hover {
+            color: aqua;
+            text-decoration: dotted;
+        }
+    }
 }
