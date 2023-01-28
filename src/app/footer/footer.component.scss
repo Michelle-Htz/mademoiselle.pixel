@@ -1,0 +1,23 @@
+.footer {
+    background-color: lightgray;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.copyright {}
+
+.links {
+    a {
+        color: gray;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        &:hover {
+            color: black;
+        }
+    }
+}

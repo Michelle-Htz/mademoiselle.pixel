@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerleft {
+    background-color: aqua;
+    height: 500px;
+    width: 50%;
+}
+
+.headerright {
+    background-color: bisque;
+    height: 500px;
+    width: 50%;
+}
